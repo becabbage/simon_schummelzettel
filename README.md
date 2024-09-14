@@ -46,5 +46,13 @@ cabbage@MSI-ubuntu:~/Daten$
 So kannst du nachsehen, ob ich auf dem Schummler etwas hinzugefügt oder ausgebessert oder ergänzt habe.
 
 ```
-?
+git fetch
+git merge
 ```
+
+order 
+
+```
+git pull
+```
+
