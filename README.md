@@ -26,3 +26,20 @@ conda activate jumpandrun
 cd /home/simon/Daten/jumpandrun/kra_learning_code
 python platformer.py
 ```
+
+## Simons Schummelzettel herunterladen und aktualisieren
+
+### Einrichten beim ersten Mal 
+
+Beim ersten Mal ladest du den Schummelzettel folgendermaßen herunter:
+
+```bash
+cabbage@MSI-ubuntu:~/Daten$ git clone https://github.com/becabbage/simon_schummelzettel
+Cloning into 'simon_schummelzettel'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+cabbage@MSI-ubuntu:~/Daten$
+```
