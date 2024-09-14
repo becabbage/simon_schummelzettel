@@ -46,13 +46,30 @@ cabbage@MSI-ubuntu:~/Daten$
 So kannst du nachsehen, ob ich auf dem Schummler etwas hinzugefügt oder ausgebessert oder ergänzt habe.
 
 ```
-git fetch
-git merge
+cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$ git fetch 
+cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$ git merge
+Updating 46a08f7..eafead7
+Fast-forward
+ README.md | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$
 ```
 
 order 
 
-```
-git pull
+```bash
+cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 968 bytes | 968.00 KiB/s, done.
+From github.com:becabbage/simon_schummelzettel
+   eafead7..5b01239  main       -> origin/main
+Updating eafead7..5b01239
+Fast-forward
+ README.md | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$ 
 ```
 
