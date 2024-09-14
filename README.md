@@ -27,9 +27,7 @@ cd /home/simon/Daten/jumpandrun/kra_learning_code
 python platformer.py
 ```
 
-## Simons Schummelzettel herunterladen und aktualisieren
-
-### Einrichten beim ersten Mal 
+## Schummelzettel herunterladden
 
 Beim ersten Mal ladest du den Schummelzettel folgendermaßen herunter:
 
@@ -42,4 +40,11 @@ remote: Compressing objects: 100% (3/3), done.
 remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (6/6), done.
 cabbage@MSI-ubuntu:~/Daten$
+```
+## Schummelzettel aktualisieren
+
+So kannst du nachsehen, ob ich auf dem Schummler etwas hinzugefügt oder ausgebessert oder ergänzt habe.
+
+```
+?
 ```
