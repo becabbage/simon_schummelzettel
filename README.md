@@ -73,3 +73,21 @@ Fast-forward
 cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$ 
 ```
 
+## Schummelzettel anzeigen
+
+So kannst du den Schummelzettel anzeigen, wenn du ihn auf deinen Computer heruntergeladen hast.
+(Achtung: Aktualisiere den Schummelzettel, wenn du die neueste Version haben möchtest)
+
+1) Öffne das Terminal
+2) Gib folgenden Befehl ein
+
+
+```bash
+cabbage@MSI-ubuntu:~$ cd Daten/simon_schummelzettel/
+cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$ chromium README.md
+Opening in existing browser session.
+cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$
+```
+3) Dann öffnet sich der Browser mit dem Schummelzettel
+
+![Bild vom Schummelzettel in Chrome](images/schummler_öffnen.png)
