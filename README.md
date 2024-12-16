@@ -55,7 +55,7 @@ Fast-forward
 cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$
 ```
 
-order 
+oder 
 
 ```bash
 cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$ git pull
@@ -91,3 +91,15 @@ cabbage@MSI-ubuntu:~/Daten/simon_schummelzettel$
 3) Dann öffnet sich der Browser mit dem Schummelzettel
 
 ![Bild vom Schummelzettel in Chrome](images/schummler_öffnen.png)
+
+## Updates - Wie bringt man den RaspberryPi auf den neuesten Stand?
+
+So kannst du den RaspberryPi (den Mini-Comptuer) auf den neuesten Stand bringen.
+Die Befehle werden im **Terminal** ausgeführt. Der Minicomputer muss mit dem Internet (also zum Beispiel in deinem WLAN) verbunden sein.
+Mit dem ersten Befehl wird nach Updates gesucht. Der zweite Befehl lädt die nötigen Updates aus dem Internet herunter installiert sie.
+
+```bash
+simon@rasperrypi:~/$ sudo apt-get updates
+
+simon@rasperrypi:~/$ sudo apt-get upgrade -y
+``` 
